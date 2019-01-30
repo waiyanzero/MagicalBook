@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="လက်ထောက်အဖြေရှာရန်အတွက်"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:gravity="center"
+        android:text="ဇယားကွက်"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="ကြွေဖြင့်မေးမြန်းလိုပါက"
+        android:layout_alignRight="@+id/luckyFab"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="55dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/luckyFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/gameplay_ball"
+        app:fabSize="mini" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/table_bg"
+        android:layout_marginTop="15dp">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:columnCount="9"
+            android:rowCount="9">
+
+            <Button
+                android:id="@+id/bt1"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt2"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt3"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+            <Button
+                android:id="@+id/bt4"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt5"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt6"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt7"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+            <Button
+                android:id="@+id/bt8"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt9"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt10"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt11"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt12"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt13"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+            <Button
+                android:id="@+id/bt14"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt15"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt16"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt17"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt18"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt19"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt20"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt21"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt22"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt23"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt24"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt25"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt26"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt27"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt28"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt29"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+            <Button
+                android:id="@+id/bt30"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt31"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt32"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt33"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt34"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt35"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt36"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt37"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt38"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt39"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt40"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt41"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt42"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt43"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt44"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt45"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+            <Button
+                android:id="@+id/bt46"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt47"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt48"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt49"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt50"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+            <Button
+                android:id="@+id/bt51"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt52"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt53"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt54"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt55"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt56"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt57"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt58"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt59"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt60"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt61"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၉" />
+
+            <Button
+                android:id="@+id/bt62"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt63"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt64"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt65"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt66"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt67"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၇" />
+
+            <Button
+                android:id="@+id/bt68"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+            <Button
+                android:id="@+id/bt69"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt70"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၄" />
+
+            <Button
+                android:id="@+id/bt71"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၂" />
+
+            <Button
+                android:id="@+id/bt72"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁၀" />
+
+            <Button
+                android:id="@+id/bt73"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt74"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt75"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt76"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၆" />
+
+            <Button
+                android:id="@+id/bt77"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၁" />
+
+            <Button
+                android:id="@+id/bt78"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt79"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၃" />
+
+            <Button
+                android:id="@+id/bt80"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၈" />
+
+            <Button
+                android:id="@+id/bt81"
+                style="@style/tableButton"
+                android:background="@drawable/handtouch_table_btcolor"
+                android:text="၅" />
+
+        </GridLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>

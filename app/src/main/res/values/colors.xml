@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#40C4FF</color>
+
+    //tarot text color
+    <color name="tarotTextColor">#595858</color>
+
+    //stroke color for table
+    <color name="colorTable">#3549dc</color>
+
+    //table button color
+    <color name="handtouchTableButtonColor">#24a9c7</color>
+
+    //line divider recycler view color
+    <color name="lineDivider">#e9e7e7</color>
+
+    <color name="white">#fff</color>
+
+</resources>

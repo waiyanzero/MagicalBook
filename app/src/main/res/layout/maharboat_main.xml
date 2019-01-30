@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/mhb_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="\'\' သင့်အတွက် မဟာဘုတ် \'\'"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <GridLayout
+        android:id="@+id/mhb_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mhb_title"
+        android:layout_margin="15dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၁"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၂"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၃"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၄"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၅"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၆"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၇"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၈"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/maharboat_bg"
+            android:gravity="center"
+            android:text="၉"
+            android:textSize="15sp" />
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/maharboat_view"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/mhb_grid"
+        android:layout_toRightOf="@+id/mhb_grid"
+        android:background="@drawable/mhb_bg2"
+        android:orientation="vertical">
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt_mhb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="12dp"
+            android:text="အကြွင်း ၁"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/txt_mhb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="အထွန်းဖွား"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/mhb_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mhb_grid"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <magicalbook.waiyan.com.magicalbook.tarot.magicalbook.magicalbook.main.LinedEditText
+            android:id="@+id/maharboat_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:editable="false"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:lineSpacingExtra="9dp"
+            android:text="Hello World"
+            android:textColor="#585757"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"/>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="\'\'မဟာဘုတ်ဗေဒင်\'\'"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/title_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="သင်၏မွေးနေ့အား ရွေးချယ်ပေးပါ.."
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/down_arrow" />
+
+    <me.myatminsoe.mdetect.MMButtonView
+        android:id="@+id/btnCalendar"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mhb_bg_btn"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ရွေးချယ်ရန် နှိပ်ပါ"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCalendar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="17dp"
+        android:text="သင်၏ မွေးနေ့မှာ မြန်မာပြက္ခဒိန်အရ"
+        android:visibility="invisible"
+        android:textColor="#f74444"
+        android:textSize="17sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="မြန်မာသက္ကရာဇ် - "
+        android:visibility="invisible"
+        android:textColor="#6e6e6e"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/text3"
+        android:visibility="invisible"
+        android:text="၁၃၅၉"
+        android:textColor="#3682cf"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/text4"
+        android:text="ခုနှစ် , သာသနာနှစ် - "
+        android:visibility="invisible"
+        android:textColor="#6e6e6e"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/text5"
+        android:text="၁၉၀၀"
+        android:visibility="invisible"
+        android:textColor="#3682cf"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="ပြာသို"
+        android:visibility="invisible"
+        android:textColor="#3682cf"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/text7"
+        android:text="လ "
+        android:visibility="invisible"
+        android:textColor="#6e6e6e"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/text8"
+        android:text=", ၂၀"
+        android:visibility="invisible"
+        android:textColor="#3682cf"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/text9"
+        android:text="ရက်နေ့"
+        android:visibility="invisible"
+        android:textColor="#6e6e6e"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="စနေ"
+        android:visibility="invisible"
+        android:textColor="#3682cf"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text7"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/text11"
+        android:text="နေ့တွင်ဖွားမြင်သော "
+        android:textColor="#6e6e6e"
+        android:visibility="invisible"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text7"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/text12"
+        android:text=" -  အထွန်း"
+        android:textColor="#3682cf"
+        android:visibility="invisible"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/text13"
+        android:text="ဖွားဖြစ်သည်။"
+        android:textColor="#6e6e6e"
+        android:visibility="invisible"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text14"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="( လဆန်း - ရက်ရာဇာ )"
+        android:visibility="invisible"
+        android:textColor="#3682cf"
+        android:textSize="17sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/text16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="မဟာဘုတ်ကပြောသော သင်၏ အကြောင်းကို"
+        android:visibility="invisible"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMButtonView
+        android:id="@+id/btnMhbStart"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/text16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mhb_bg_btn"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="သိရှိရန် နှိပ်ပါ"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
+</RelativeLayout>

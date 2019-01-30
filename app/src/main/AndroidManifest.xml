@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="magicalbook.waiyan.com.magicalbook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/the_main_cat"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/the_main_cat"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tarot.magicalbook.magicalbook.main.MainActivity"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".tarot.magicalbook.magicalbook.tarot.TarotMain"/>
+        <activity android:name=".tarot.magicalbook.magicalbook.tarot.TarotCalculate" android:theme="@style/MyTheme"/>
+
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.HandtouchMain" android:theme="@style/AppTheme"/>
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.HandtouchQuestion"/>
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.HandtouchTable"/>
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.HandtouchAnswer"/>
+
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.MaharboatBegin"/>
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.MaharboatMain"/>
+
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.Lovelove"/>
+        <activity android:name=".tarot.magicalbook.magicalbook.magicalbook.handtouch.Lovelovetwo"/>
+
+    </application>
+</manifest>

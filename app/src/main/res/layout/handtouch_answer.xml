@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="သင့်အတွက်အဖြေက....."
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <magicalbook.waiyan.com.magicalbook.tarot.magicalbook.magicalbook.main.LinedEditText
+        android:id="@+id/textAnswer"
+        android:layout_below="@+id/title_answer"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="top|left"
+        android:paddingLeft="15dp"
+        android:textColor="#646464"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:clickable="false"
+        android:editable="false"
+        android:background="@drawable/handtouch_answer_edittextdesign"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Hello.."
+        android:textSize="16sp" />
+    <LinearLayout
+        android:id="@+id/layout_tt"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:paddingBottom="5dp">
+
+
+    <me.myatminsoe.mdetect.MMButtonView
+        android:id="@+id/btnAgain"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/handtouch_btn_design"
+        android:text="ထပ်မေးရန်"/>
+    </LinearLayout>
+</RelativeLayout>

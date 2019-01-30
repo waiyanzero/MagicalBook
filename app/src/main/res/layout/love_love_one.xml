@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/love_title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="မွေးနေ့လေးတွေကပြောတဲ့ သင်မသိသေးတဲ့"
+        android:textColor="@color/colorPrimary"
+        android:textSize="19sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/love_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/love_title1"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="သင်တို့စုံတွဲ အကြောင်း"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/compile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/love_title2"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/you_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/love_title2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <me.myatminsoe.mdetect.MMTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:text="သင်၏ မွေးနေ့"
+                android:textColor="#f53e3e"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/you_image"
+                android:layout_width="40dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/heat_icon1" />
+
+            <me.myatminsoe.mdetect.MMButtonView
+                android:id="@+id/btn_you"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mhb_bg_btn"
+                android:text="ရွေးချယ်ရန်"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sign_image"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/male_female" />
+
+        <LinearLayout
+            android:id="@+id/lover_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/love_title2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/you_layout"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <me.myatminsoe.mdetect.MMTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:text="သင့်ချစ်သူမွေးနေ့"
+                android:textColor="#f53e3e"
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/love_image"
+                android:layout_width="40dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/heat_icon1" />
+
+            <me.myatminsoe.mdetect.MMButtonView
+                android:id="@+id/btn_love"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/mhb_bg_btn"
+                android:text="ရွေးချယ်ရန်"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/start_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/compile_layout"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/love1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/heart_icon" />
+
+        <me.myatminsoe.mdetect.MMButtonView
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/mhb_bg_btn"
+            android:text="စတင်မည်"
+            android:textColor="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/love2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/heart_icon" />
+    </LinearLayout>
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/countDownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#fa5555"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/love_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countDownText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="မွေးနေ့လေးတွေပြောတဲ့"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/love_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/love_txt1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:text="သင်တို့အတွက် အဖြေက"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:visibility="invisible" />
+</RelativeLayout>

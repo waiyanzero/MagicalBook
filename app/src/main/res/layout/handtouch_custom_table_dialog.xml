@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/dtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="လက်ထောက်ဗေဒင်"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/dtitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="နံပါတ် "
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/dtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="၁"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <me.myatminsoe.mdetect.MMTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" ကို"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/dtext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="ရွေးချယ်ခြင်းမှာသေချာပါသလား"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dtext2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <me.myatminsoe.mdetect.MMButtonView
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/dialog_button"
+            android:text="မဟုတ်ဘူး"
+            android:textColor="@color/colorPrimary" />
+
+        <me.myatminsoe.mdetect.MMButtonView
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/dialog_button"
+            android:text="ဟုတ်တယ်"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</RelativeLayout>

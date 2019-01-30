@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/title_love_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="left">
+    <ImageView
+        android:id="@+id/heart_img1"
+        android:layout_width="20dp"
+        android:layout_height="17dp"
+        android:background="@drawable/heat_icon1" />
+        <me.myatminsoe.mdetect.MMTextView
+            android:id="@+id/lovet"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="သင်တို့ရဲ့ရလဒ်လေးက"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
+    <ImageView
+        android:id="@+id/heart_img2"
+        android:layout_width="20dp"
+        android:layout_height="17dp"
+        android:background="@drawable/heat_icon1" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_love_layout">
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/lovett"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:textColor="#545454"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:text="Hello World"
+        android:layout_marginTop="5dp"/>
+    </ScrollView>
+</RelativeLayout>

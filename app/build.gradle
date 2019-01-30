@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "magicalbook.waiyan.com.magicalbook"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:26.0.1'
+
+    //for recycler view
+    implementation 'com.android.support:recyclerview-v7:26.0.1'
+
+    //for android design
+    implementation 'com.android.support:design:26.0.1'
+
+    //for zaw gyi-unicode fixed
+    implementation 'myatminsoe.mdetect.android:mdetect-android:3.2'
+
+    //for card view
+    implementation 'com.android.support:cardview-v7:26.0.1'
+
+    //for animation YoYo library
+    implementation 'com.daimajia.androidanimations:library:2.3@aar'
+
+    //for background color design -background tint
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+
+    //for carousel view
+    implementation 'fr.rolandl:carousel:1.0.1@aar'
+
+    //for cycling wheel
+    implementation 'com.github.lukedeighton:wheelview:0.3.1'
+
+    //for myanmar calendar
+    implementation 'com.github.chanmratekoko:myanmar-calendar:1.0.3.RELEASE'
+
+    //for date time picker
+    implementation 'com.wdullaer:materialdatetimepicker:3.6.0'
+}

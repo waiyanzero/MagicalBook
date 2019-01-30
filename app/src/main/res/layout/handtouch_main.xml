@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:shadowDy="8.0"
+        android:text="ဆရာမင်းသိင်္ခ၏"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="လွန်စွာမှ တိကျမှန်ကန်သော"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp" />
+
+    <me.myatminsoe.mdetect.MMTextView
+        android:id="@+id/title_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_text2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="မရမ်းတလင်း"
+        android:textColor="#bf313131"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/title_image"
+        android:layout_width="210dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/title_text3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/title" />
+
+    <LinearLayout
+        android:id="@+id/layout_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_image"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/handtouch_btn_design"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="ေဗဒင္ေမးရန္"
+            android:layout_margin="7dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_one"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/handtouch_btn_design"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="အသုံးျပဳပုံ"
+            android:layout_margin="7dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_two"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/handtouch_btn_design"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="သမိုင္းေၾကာင္း"
+            android:layout_margin="7dp"
+            android:textColor="@color/colorPrimaryDark" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_three"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:background="@drawable/handtouch_btn_design"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="ထြက္ရန္"
+            android:layout_margin="7dp"
+            android:textColor="@color/colorPrimaryDark" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/handtouch_flower"
+            android:clickable="false" />
+    </LinearLayout>
+
+</RelativeLayout>
